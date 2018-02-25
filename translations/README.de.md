@@ -7,13 +7,26 @@ Let's build a coherent dictionary for the translation of technical and other Mon
 Everything in this document should be treated as a request for comment, so it can and probably will change in the future upon further input.
 
 ## TODO: Guidelines
+#### Placeholder text
+Placeholder text should not be translated, so that upstream changes are automatically displayed in the gui.  
+Examples: '4...',  '78.9239845', '2324.9239845'
+
+**TODO: Compile and check assumption**
+
+## Not translated
+| English                                     | German                   | Notes                                     |
+| ------------------------------------------- | ---                      | ---                                       |
+
 
 ## New
 
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
+| ***node***                                  | *Knoten? Node?*          |                                           |
+| **QrCode(Qr Code)** ^1                      | QR-Code                  |                                           |
 | **view key**                                | View-Key                 |                                           |
-| **Qr Code**                                 | QR-Code                  |                                           |
+
+**^1** : Inconsistent in upstream?
 
 ## Changed
 
@@ -21,7 +34,6 @@ Less ambiguous: Former translation was found to be ambiguous technically or in m
 
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
-| **balance**                                 | *Betrag?*                | was: *Guthaben*                           |
 | **mnemonic seed**                           | mnemonischer Seed        | was: *mnemonischer Code*                  |
 | **public spend key**  ^1                    | öffentlicher Spend-Key   | was: *Spend-Schlüssel (öffentlich)*       |
 | **private spend key**  ^1                   | privater Spend-Key       | was: *Spend-Schlüssel (privat)*           |
@@ -29,9 +41,20 @@ Less ambiguous: Former translation was found to be ambiguous technically or in m
 | **seed**                                    | Seed                     | was: *(mnemonischer) Code*                |
 | **spend key**                               | Spend-Key                | was: Spend-Schlüssel                      |
 | **output**                                  | Output                   | was: *Ausgang*                            |
-| **unlocked balance**                        | *verfügbarer Betrag?*    | was: *verfügbares Guthaben*               |
 
 **^1** : Inconsistent in upstream?  
+
+## Discuss Change
+
+Mist, *balance* muss was anderes werden, da *amount* schon als "Betrag" übersetzt wurde.
+
+| English                                     | German                   | Notes                                     |
+| ------------------------------------------- | ---                      | ---                                       |
+| balance                                     | *Betrag?*                | was: *Guthaben*                           |
+| quick transfer                              |                          | is: *Schnellüberweisung*                  |
+| security level                              | *Sicherheitslevel?*      | was: *Geheimhaltungslevel*                |
+| Tx key                                      |                          | is: *Tx-Schlüsseö*                        |
+| unlocked balance                            | *verfügbarer Betrag?*    | was: *verfügbares Guthaben*               |
 
 ## Unchanged
 
@@ -41,6 +64,8 @@ Consistent: Leaving the existing translation made sense.
 | ------------------------------------------- | ---                      | ---                                       |
 | blockchain                                  | Blockchain               |                                           |
 | block height                                | Blockhöhe                |                                           |
+| confirmations                               | Bestätigungen            |                                           |
+| daemon                                      | Daemon                   |                                           |
 | entry                                       | Eintrag                  |                                           |
 | integrated address                          | integrierte Adresse      |                                           |
 | mine                                        | minen                    |                                           |
@@ -49,6 +74,8 @@ Consistent: Leaving the existing translation made sense.
 | payment ID                                  | Zahlungs-ID              |                                           |
 | ringsize                                    | Ringgröße                |                                           |
 | transaction                                 | Transaktion              |                                           |
+| Tx ID                                       | Tx-ID                    |                                           |
+| Tx note                                     | Tx-Notiz                 |                                           |
 | wallet                                      | Wallet                   |                                           |
 
 ## Not in GUI
