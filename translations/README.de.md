@@ -4,6 +4,7 @@ This list is by no means complete, but shamelessly copied from https://taiga.get
 
 | Englisch                                | Deutsch                 | Bedeutung | Kommentar                             |
 | ---                                     | ---                     | ---       | ---                                   |
+| amount                                  |Menge                    |           |                                       |
 | anonymity set                           |                         |           |                                       |
 | Balance                                 |Betrag?                  |           |                                       |
 | blockchain                              |Blockchain               |           |                                       |
@@ -16,25 +17,35 @@ This list is by no means complete, but shamelessly copied from https://taiga.get
 | cryptocurrency                          |Kryptowährung            |           |                                       |
 | dust                                    |Dust                     |           |                                       |
 | emission                                |Emission                 |           |                                       |
+| Error                                   |Fehler                   |           |                                       |
+| hidden                                  |versteckt                |           |                                       |
 | tail                                    |                         |           |                                       |
 | tail emission                           |                         |           |                                       |
+| fee                                     |Gebühr                   |           |                                       |
 | fork                                    |Fork                     |           |                                       |
+| funds                                   |                         |           |                                       |
 | fungible                                |Fungibel                 |           |                                       |
 | fungibility                             |Fungibilität             |           |                                       |
 | integrated address                      |integrierte Adresse      |           |                                       |
 | ledger                                  |                         |           |                                       |
+| log                                     |Log                      |           |                                       |
 | mine                                    |mine                     |           |                                       |
 | miner                                   |miner                    |           |                                       |
 | mining                                  |mining                   |           |                                       |
 | mnemonic seed                           |mnemonischer Seed        |           |                                       |
+| node                                    |Node                     |           |                                       |
+| Note:                                   |Info:                    |           |                                       |
+| payment                                 |Zahlung                  |           |                                       |
 | payment ID                              |Zahlungs-ID              |           |                                       |
-| proof-of-work                           |                         |           |                                       |
+| Proof                                   |Nachweis                 |           |                                       |
+| proof-of-work                           |Proof-of-Work            |           |                                       |
 | public key                              |öffentlicher Schlüssel   |           |                                       |
 | private key                             |privater Schlüssel       |           |                                       |
 | public spend key                        |öffentlicher Spend-Key   |           |                                       |
 | private spend key                       |privater Spend-Key       |           |                                       |
 | public view key                         |öffentlicher View-Key    |           |                                       |
 | private view key                        |privater View-Key        |           |                                       |
+| read-only                               |schreibgeschützt         |           |                                       |
 | ring confidential transaction (Ring CT) |                         |           |                                       |
 | ring signature                          |Ringsignatur             |           |                                       |
 | ringsize                                |Ringgröße                |           |                                       |
@@ -42,6 +53,7 @@ This list is by no means complete, but shamelessly copied from https://taiga.get
 | scalability                             |Skalierbarkeit           |           |                                       |
 | seed                                    |Seed                     |           |                                       |
 | spend key                               |Spend-Key                |           |                                       |
+| spend proof                             |                         |           |                                       |
 | stealth address                         |Schattenadresse          |           |falls Tarnadresse besser ist, melden.  |
 | transaction                             |Transaktion              |           |                                       |
 | transaction unlock time                 |                         |           |not existend in GUI                    |
