@@ -16,14 +16,17 @@ Examples: '4...',  '78.9239845', '2324.9239845'
 ## Not translated
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
-
+| Spendable Wallet                            |                          |                                           |
+| View Only Wallet                            |                          |                                           |
 
 ## New
 
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
-| ***node***                                  | *Knoten? Node?*          |                                           |
+| **node**                                    | *Knoten? Node?*          |                                           |
+| **Public spend key**                     | öffentlicher Spend-Key   |        |
 | **QrCode(Qr Code)** ^1                      | QR-Code                  |                                           |
+| **Secret spend key** ^1 | geheimer Spend-Key       | |
 | **view key**                                | View-Key                 |                                           |
 
 **^1** : Inconsistent in upstream?
@@ -35,11 +38,12 @@ Less ambiguous: Former translation was found to be ambiguous technically or in m
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
 | **mnemonic seed**                           | mnemonischer Seed        | was: *mnemonischer Code*                  |
-| **public spend key**  ^1                    | öffentlicher Spend-Key   | was: *Spend-Schlüssel (öffentlich)*       |
-| **private spend key**  ^1                   | privater Spend-Key       | was: *Spend-Schlüssel (privat)*           |
+| **Spend key (private)** ^1                  | Spend-Key (privat)      | was *Spend-Schlüssel (privat)*            |
+| **public view key**                         | öffentlicher View-Key    | was: *öffentlicher View-Schlüssel*        |
+| **secret view key**                         | geheimer View-Key        | was: *geheimer View-Schlüssel*            |
 | **reward**                                  | Belohnung                | was: inconsistent                         |
 | **seed**                                    | Seed                     | was: *(mnemonischer) Code*                |
-| **spend key**                               | Spend-Key                | was: Spend-Schlüssel                      |
+| **spend key**                               | Spend-Key                | was: *Spend-Schlüssel*                    |
 | **output**                                  | Output                   | was: *Ausgang*                            |
 
 **^1** : Inconsistent in upstream?  
@@ -98,8 +102,6 @@ Consistent: Leaving the existing translation made sense.
 | *proof-of-work*                             | *???*                    |                                           |
 | public key                                  | öffentlicher Schlüssel   |                                           |
 | private key                                 | privater Schlüssel       |                                           |
-| public view key                             | öffentlicher View-Key    |                                           |
-| private view key                            | privater View-Key        |                                           |
 | *ring confidential transaction (Ring CT)*   | *???*                    |                                           |
 | ring signature                              | Ringsignatur             |                                           |
 | scalable                                    | skalierbar               |                                           |
