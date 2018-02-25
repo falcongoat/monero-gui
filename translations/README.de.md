@@ -30,6 +30,7 @@ Less ambiguous: Former translation was found to be ambiguous technically or in m
 | **spend key**                               | Spend-Key                | was: Spend-Schlüssel                      |
 | **output**                                  | Output                   | was: *Ausgang*                            |
 | **unlocked balance**                        | *verfügbarer Betrag?*    | was: *verfügbares Guthaben*               |
+
 **^1** : Inconsistent in upstream?  
 
 ## Unchanged
