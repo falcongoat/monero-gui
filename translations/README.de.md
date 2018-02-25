@@ -1,51 +1,82 @@
-Let's implement a coherent nomenclature for the translation of the technical terms, providing consistency and ease of maintainability for future translators/contributers.
+# German translation
 
-This list is by no means complete, but shamelessly copied from https://taiga.getmonero.org/project/erciccione-monero-localization/wiki/swedish-terminology as a starting point.
+#### This is a page for collaboration on terminology between German translators
 
-| Englisch                                | Deutsch                 | Bedeutung | Kommentar                             |
-| ---                                     | ---                     | ---       | ---                                   |
-| anonymity set                           |                         |           |                                       |
-| Balance                                 |Betrag?                  |           |                                       |
-| blockchain                              |Blockchain               |           |                                       |
-| block height                            |Blockhöhe                |           |                                       |
-| block reward                            |Blockbelohnung           |           |                                       |
-| block time                              |Blockzeit                |           |                                       |
-| change                                  |Rückgeld                 |           |                                       |
-| coinbase transaction                    |Coinbase-Transaktion     |           |not existend in GUI                    |
-| confidential transaction                |vertrauliche Transaktion |           |                                       |
-| cryptocurrency                          |Kryptowährung            |           |                                       |
-| dust                                    |Dust                     |           |                                       |
-| emission                                |Emission                 |           |                                       |
-| tail                                    |                         |           |                                       |
-| tail emission                           |                         |           |                                       |
-| fork                                    |Fork                     |           |                                       |
-| fungible                                |Fungibel                 |           |                                       |
-| fungibility                             |Fungibilität             |           |                                       |
-| integrated address                      |integrierte Adresse      |           |                                       |
-| ledger                                  |                         |           |                                       |
-| mine                                    |mine                     |           |                                       |
-| miner                                   |miner                    |           |                                       |
-| mining                                  |mining                   |           |                                       |
-| mnemonic seed                           |mnemonischer Seed        |           |                                       |
-| payment ID                              |Zahlungs-ID              |           |                                       |
-| proof-of-work                           |                         |           |                                       |
-| public key                              |öffentlicher Schlüssel   |           |                                       |
-| private key                             |privater Schlüssel       |           |                                       |
-| public spend key                        |öffentlicher Spend-Key   |           |                                       |
-| private spend key                       |privater Spend-Key       |           |                                       |
-| public view key                         |öffentlicher View-Key    |           |                                       |
-| private view key                        |privater View-Key        |           |                                       |
-| ring confidential transaction (Ring CT) |                         |           |                                       |
-| ring signature                          |Ringsignatur             |           |                                       |
-| ringsize                                |Ringgröße                |           |                                       |
-| scalable                                |skalierbar               |           |                                       |
-| scalability                             |Skalierbarkeit           |           |                                       |
-| seed                                    |Seed                     |           |                                       |
-| spend key                               |Spend-Key                |           |                                       |
-| stealth address                         |Schattenadresse          |           |falls Tarnadresse besser ist, melden.  |
-| transaction                             |Transaktion              |           |                                       |
-| transaction unlock time                 |                         |           |not existend in GUI                    |
-| output                                  |Output                   |           |                                       |
-| unlocked balance                        |verfügbarer Betrag?      |           |                                       |
-| view key                                |View-Key                 |           |                                       |
-| wallet                                  |Wallet                   |           |                                       |
+Let's build a coherent dictionary for the translation of technical and other Monero-related terms, providing consistency and ease of maintainability for future translators/contributers. The initial wordlist was branched of from [the swedish collab](https://taiga.getmonero.org/project/erciccione-monero-localization/wiki/swedish-terminology). 
+
+Everything in this document should be treated as a request for comment, so it can and probably will change in the future upon further input.
+
+## TODO: Guidelines
+
+## New
+
+| English                                     | German                   | Notes                                     |
+| ------------------------------------------- | ---                      | ---                                       |
+| **view key**                                | View-Key                 |                                           |
+| **Qr Code**                                 | QR-Code                  |                                           |
+
+## Changed
+
+Less ambiguous: Former translation was found to be ambiguous technically or in meaning.  
+
+| English                                     | German                   | Notes                                     |
+| ------------------------------------------- | ---                      | ---                                       |
+| **balance**                                 | *Betrag?*                | was: *Guthaben*                           |
+| **mnemonic seed**                           | mnemonischer Seed        | was: *mnemonischer Code*                  |
+| **public spend key**  ^1                    | öffentlicher Spend-Key   | was: *Spend-Schlüssel (öffentlich)*       |
+| **private spend key**  ^1                   | privater Spend-Key       | was: *Spend-Schlüssel (privat)*           |
+| **reward**                                  | Belohnung                | was: inconsistent                         |
+| **seed**                                    | Seed                     | was: *(mnemonischer) Code*                |
+| **spend key**                               | Spend-Key                | was: Spend-Schlüssel                      |
+| **output**                                  | Output                   | was: *Ausgang*                            |
+| **unlocked balance**                        | *verfügbarer Betrag?*    | was: *verfügbares Guthaben*               |
+**^1** : Inconsistent in upstream?  
+
+## Unchanged
+
+Consistent: Leaving the existing translation made sense.  
+
+| English                                     | German                   | Notes                                     |
+| ------------------------------------------- | ---                      | ---                                       |
+| blockchain                                  | Blockchain               |                                           |
+| block height                                | Blockhöhe                |                                           |
+| entry                                       | Eintrag                  |                                           |
+| integrated address                          | integrierte Adresse      |                                           |
+| mine                                        | minen                    |                                           |
+| miner                                       | Miner                    |                                           |
+| mining                                      | Mining                   |                                           |
+| payment ID                                  | Zahlungs-ID              |                                           |
+| ringsize                                    | Ringgröße                |                                           |
+| transaction                                 | Transaktion              |                                           |
+| wallet                                      | Wallet                   |                                           |
+
+## Not in GUI
+
+| English                                     | German                   | Notes                                     |
+| ------------------------------------------- | ---                      | ---                                       |
+| *anonymity set*                             | *???*                    |                                           |
+| block reward                                | Blockbelohnung           |                                           |
+| block time                                  | Blockzeit                |                                           |
+| change                                      | Rückgeld                 |                                           |
+| *coinbase transaction*                      | *Coinbase-Transaktion?*  |                                           |
+| confidential transaction                    | vertrauliche Transaktion |                                           |
+| cryptocurrency                              | Kryptowährung            |                                           |
+| dust                                        | Dust                     |                                           |
+| emission                                    | Emission                 |                                           |
+| fork                                        | Fork                     |                                           |
+| fungible                                    | Fungibel                 |                                           |
+| fungibility                                 | Fungibilität             |                                           |
+| *ledger*                                    | *???*                    |                                           |
+| *proof-of-work*                             | *???*                    |                                           |
+| public key                                  | öffentlicher Schlüssel   |                                           |
+| private key                                 | privater Schlüssel       |                                           |
+| public view key                             | öffentlicher View-Key    |                                           |
+| private view key                            | privater View-Key        |                                           |
+| *ring confidential transaction (Ring CT)*   | *???*                    |                                           |
+| ring signature                              | Ringsignatur             |                                           |
+| scalable                                    | skalierbar               |                                           |
+| scalability                                 | Skalierbarkeit           |                                           |
+| stealth address                             | Schattenadresse          | _Feedback appreciated!_, alt: Tarnadresse |
+| *tail*                                      | *???*                    |                                           |
+| *tail emission*                             | *???*                    |                                           |
+| *transaction unlock time*                   | *???*                    |                                           |
