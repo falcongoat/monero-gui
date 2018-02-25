@@ -24,9 +24,9 @@ Examples: '4...',  '78.9239845', '2324.9239845'
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
 | **node**                                    | *Knoten? Node?*          |                                           |
-| **Public spend key**                     | öffentlicher Spend-Key   |        |
+| **Public spend key**                        | öffentlicher Spend-Key   |                                           |
 | **QrCode(Qr Code)** ^1                      | QR-Code                  |                                           |
-| **Secret spend key** ^1 | geheimer Spend-Key       | |
+| **Secret spend key** ^1                     | geheimer Spend-Key       |                                           |
 | **view key**                                | View-Key                 |                                           |
 
 **^1** : Inconsistent in upstream?
@@ -38,7 +38,7 @@ Less ambiguous: Former translation was found to be ambiguous technically or in m
 | English                                     | German                   | Notes                                     |
 | ------------------------------------------- | ---                      | ---                                       |
 | **mnemonic seed**                           | mnemonischer Seed        | was: *mnemonischer Code*                  |
-| **Spend key (private)** ^1                  | Spend-Key (privat)      | was *Spend-Schlüssel (privat)*            |
+| **Spend key (private)** ^1                  | Spend-Key (privat)       | was *Spend-Schlüssel (privat)*            |
 | **public view key**                         | öffentlicher View-Key    | was: *öffentlicher View-Schlüssel*        |
 | **secret view key**                         | geheimer View-Key        | was: *geheimer View-Schlüssel*            |
 | **reward**                                  | Belohnung                | was: inconsistent                         |
