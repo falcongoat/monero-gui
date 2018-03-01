@@ -89,7 +89,7 @@
     <message>
         <location filename="../BasicPanel.qml" line="97"/>
         <source>Locked Balance:</source>
-        <translation type="unfinished"> Gesperrtes Guthaben:</translation>
+        <translation type="unfinished">Gesperrtes Guthaben:</translation>
     </message>
     <message>
         <location filename="../BasicPanel.qml" line="110"/>
@@ -99,7 +99,7 @@
     <message>
         <location filename="../BasicPanel.qml" line="133"/>
         <source>Available Balance:</source>
-        <translation type="unfinished"> Verfügbares Guthaben:</translation>
+        <translation type="unfinished">Verfügbares Guthaben:</translation>
     </message>
     <message>
         <location filename="../BasicPanel.qml" line="146"/>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../components/DashboardTable.qml" line="170"/>
         <source>Balance</source>
-        <translation type="unfinished"> Guthaben</translation>
+        <translation type="unfinished">Guthaben</translation>
     </message>
     <message>
         <location filename="../components/DashboardTable.qml" line="190"/>
@@ -437,7 +437,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="147"/>
         <source>Balance</source>
-        <translation>Guthaben</translation>
+        <translation type="unfinished">Guthaben</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="192"/>
@@ -560,12 +560,12 @@
     <message>
         <location filename="../MiddlePanel.qml" line="47"/>
         <source>Balance</source>
-        <translation type="unfinished"> Guthaben</translation>
+        <translation type="unfinished">Guthaben</translation>
     </message>
     <message>
         <location filename="../MiddlePanel.qml" line="49"/>
         <source>Unlocked Balance</source>
-        <translation type="unfinished"> Verfügbares Guthaben</translation>
+        <translation type="unfinished">Verfügbares Guthaben</translation>
     </message>
 </context>
 <context>
@@ -661,7 +661,7 @@
     <message>
         <location filename="../components/MobileHeader.qml" line="92"/>
         <source>Unlocked Balance:</source>
-        <translation type="unfinished"> Verfügbares Guthaben:</translation>
+        <translation type="unfinished">Verfügbares Guthaben:</translation>
     </message>
 </context>
 <context>
@@ -1008,7 +1008,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="145"/>
         <source>Rescan wallet balance</source>
-        <translation type="unfinished"> Wallet-Guthaben aktualisieren</translation>
+        <translation type="unfinished">Wallet-Guthaben aktualisieren</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="154"/>
