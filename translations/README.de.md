@@ -52,11 +52,11 @@ translated at all. Enter your suggested translation and move to the next entry.
 ___
 
 ## Not translated
-| English                    | German | Notes |
-| ---                        | ---    | ---   |
-| local daemon startup flags |        |
-| Spendable Wallet           |        |       |
-| spent outputs              |        |       |
+| English          | German | Notes |
+| ---              | ---    | ---   |
+| local daemon startup flags | |
+| signing address| | recherchieren |
+| Spendable Wallet |        | recherchieren |
 
 - A unique user name used in
   the address book. It is not a
@@ -65,10 +65,15 @@ ___
 
 ## New
 
+wallet log path >
+log > log
+
 | English                | German          | Notes |
 | ---                    | ---             | ---   |
 | **hidden**             | versteckt       |       |
 | **QrCode(Qr Code)** ^1 | QR-Code         |       |
+|**spend proof**|Sendenachweis||
+| spent outputs | verbrauchte Outputs | |
 | **view key**           | View-Key        |       |
 
 **^1** : Inconsistent in upstream?
@@ -79,28 +84,23 @@ ___
 
 ## Discuss Change
 
-Mist, *balance* muss was anderes werden, da *amount* schon als "Betrag"
-übersetzt wurde.
+| English          | German                | Notes                       |
+| ---              | ---                   | ---                         |
+| clear            |                       | is: *leeren*                |
+| funds            |                       | was: *Geld/Guthaben*        |
+| Generate         | *erzeugen*            | was: *generieren/erstellen* |
+| log level | *Log-Level*  | was: *Detailgrad des Berichts* |
+| money            |                       | is: *Geld/Guthaben*         |
+| quick transfer   |                       | is: *Schnellüberweisung*    |
+| ReadOnly Wallet  | *view-only Wallet*                      | is: *Schreibgeschütztes Wallet* |
+| security level   | *Sicherheitslevel?*   | was: *Geheimhaltungslevel*  |
+| Tracking         |                       | is: *Nachverfolgen*         |
+| View Only Wallet | *view-only Wallet*                      | is: *schreibgeschütztes Wallet* |
 
-| English          | German                | Notes                           |
-| ---              | ---                   | ---                             |
-| amount           | *Menge?*              | was: *Betrag*                   |
-| balance          | *Betrag?*             | was: *Guthaben*                 |
-| change           | *Rückgeld?*           |                                 |
-| clear            |                       | is: *leeren*                    |
-| funds            |                       | was: *Geld/Guthaben*            |
-| Generate         | *erzeugen*            | was: *generieren/erstellen*     |
-| log level        |                       | is: *Detailgrad des Berichts*   |
-| money            |                       | is: *Geld/Guthaben*             |
-| quick transfer   |                       | is: *Schnellüberweisung*        |
-| ReadOnly Wallet  |                       | is: *Schreibgeschütztes Wallet* |
-| security level   | *Sicherheitslevel?*   | was: *Geheimhaltungslevel*      |
-| testnet          |                       | is: *Testnet*                   |
-| Tracking         |                       | is: *Nachverfolgen*             |
-| Tx key           | *Tx-Key*              | is: *Tx-Schlüssel*              |
-| unlocked balance | *verfügbarer Betrag?* | was: *verfügbares Guthaben*     |
-| View Only Wallet |                       | is: *schreibgeschütztes Wallet* |
+viewOnly == readOnly?
 
+| Tx key           | *Tx-Key*              | is: *Tx-Schlüssel*          |
+| testnet          |                       | is: *Testnet*               |
 
 ## Changed
 
@@ -120,14 +120,20 @@ GUI.
 | **seed**                  | Seed                   | was: *(mnemonischer) Code*            |
 | **spend key**             | Spend-Key              | was: Spend-Schlüssel                  |
 
+- funds: case-by-case
+- key : Schlüssel, ausser >
+  view-key, spend-key
+
 **^1** : Inconsistent in upstream?
 
 ## Unchanged
 
 Consistent: Leaving the existing translation made sense.
 
+| amount           | Betrag              |                |
 | English            | German              | Notes |
 | ---                | ---                 | ---   |
+| balance          | Guthaben             |         |
 | blockchain         | Blockchain          |       |
 | block height       | Blockhöhe           |       |
 | confirmations      | Bestätigungen       |       |
@@ -148,6 +154,7 @@ Consistent: Leaving the existing translation made sense.
 | transaction        | Transaktion         |       |
 | Tx ID              | Tx-ID               |       |
 | Tx note            | Tx-Notiz            |       |
+| unlocked balance  | verfügbares Guthaben | |
 | wallet             | Wallet              |       |
 
 ## Not in GUI
@@ -167,7 +174,7 @@ Consistent: Leaving the existing translation made sense.
 | fungible                        | Fungibel                 |                                     |
 | fungibility                     | Fungibilität             |                                     |
 | *ledger*                        | *???*                    |                                     |
-| *proof-of-work*                 | *Proof-of-Work*          |                                     |
+| *proof-of-work*                 | *Proof-of-Work*          |
 | public key                      | öffentlicher Schlüssel   |                                     |
 | private key                     | privater Schlüssel       |                                     |
 | public view key                 | öffentlicher View-Key    |                                     |
